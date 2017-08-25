@@ -1,0 +1,25 @@
+header{
+    font-size:xx-large;
+}
+#titulo{
+    text-align:left;
+    font-family: 'impact', cursive;
+}
+.menu{
+    text-align:right;
+    color:blue; 
+    font-family:arial;
+    font-size:large
+      }   
+
+.amarillo{
+    color:yellow;
+    }
+
+.resaltado:hover{
+    background-color:gold;
+}
+#cuerpo{
+    text-align:justify;
+    font-family:sans-serif; 
+}
