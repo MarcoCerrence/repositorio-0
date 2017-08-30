@@ -1,24 +1,14 @@
-div, article, section, header, footer, nav, li {
-    position: relative;
-}
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
 header{
     font-size:xx-large;
 }
-#titulo{
-    text-align:left;
-    font-family: 'impact', cursive;
-}
-.menu{
-    text-align:right;
-    color:blue; 
-    font-family:arial;
-    font-size:large
-      }   
-
+h1{
+    font-size:xx-large;
+    text-align:center;
+    }   
 .amarillo{
     color:#FFFF00;
     }
-
 .resaltado:hover{
     background-color:gold;
 }
@@ -26,17 +16,14 @@ header{
     text-align:left;
     font-family:sans-serif; 
 }
-h2{
-    font-family:monospace
-}
-h1{
-    display: block;
-    font-size: 3em;
-    font-weight: bold;
-    text-align:center;
-}
 .chamullo{
-    display: block;
+    text-align:center;
+    color:black;
     font-size: 1.5em;
     font-style: italic;
 }
+.bien{
+    text-align:center;
+    font-size: 4em;    
+    font-family:'Baloo Tammudu';
+    }
