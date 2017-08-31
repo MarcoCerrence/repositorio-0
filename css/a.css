@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
 @import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+#body{
+   background:#f0f0f0;
+}
 header{
     font-size:xx-large;
+    background-color:#0b333f;
+    padding:20px;
+}
+.principal{
+    color:white;
+    font-family:'Patua One';
+    font-size:1.5em;
+}
+.alinear{
+    float:right;
 }
 h1{
     font-size:xx-large;
+    font-family:'Baloo Tammudu';
     text-align:center;
     }   
 .amarillo{
@@ -12,18 +28,49 @@ h1{
 .resaltado:hover{
     background-color:gold;
 }
-#cuerpo{
-    text-align:left;
-    font-family:sans-serif; 
+.botones{
+     text-align:right;
+} 
+#principal{
+  background: url(../img/top-bg.jpg) no-repeat center center fixed;
+  padding:150px;
 }
 .chamullo{
     text-align:center;
-    color:black;
+    color:whitesmoke;
     font-size: 1.5em;
-    font-style: italic;
+    font-family:open sans;
 }
 .bien{
     text-align:center;
-    font-size: 4em;    
+    font-size: 5em;    
     font-family:'Baloo Tammudu';
+    color:white;
     }
+.fondo{
+    background-image: url(../img/yellow.png);
+    padding:50px;
+}
+.pensar{
+    font-size:3em;
+    font-family:'Patua One';
+    text-align:center;
+    color:white;
+    
+}
+.pensar2{
+    text-align:left;
+    font-size:1.5em;
+    font-family:'Patua One';
+    color:white;
+    font-style:italic;
+}
+.fuente{
+   text-align:center;
+    color:black;
+    font-size: 1.5em;
+    font-family:open sans;
+}
+footer{
+    text-align:center;
+}
